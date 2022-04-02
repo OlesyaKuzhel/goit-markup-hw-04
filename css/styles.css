@@ -88,6 +88,23 @@ h1, h2, h3, p {
   margin-bottom: 0;
   }
 
+  .icon-letter {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    color: #757575;
+  }
+
+  .icon-phone {
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+  }
+
+.contact-item:hover {
+color: #2196F3;
+}
+
   .web-link {
     color: #2196F3;
   }
@@ -171,6 +188,29 @@ margin-bottom: 10px;
   margin-right: 0;
 }
 
+.icon-about {
+  width: 270px;
+  height: 120px;
+  background: #F5F4FA;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.companion{
+  padding: 25px 102.34px;
+}
+
+.watch{
+  padding: 25px 101.24px;
+}
+
+.laptop{
+  padding: 33.2px 100px;
+}
+
+.astronaut{
+  padding: 25px 100px;
+}
 
 .hero-title {
 font-weight: 900;
@@ -323,6 +363,56 @@ margin-right: 0;
     margin-right: 0px;
   }
   
+  .icon-networks {
+    width: 44px;
+    height: 44px;
+    background-position: center;
+  }
+
+
+  .networks-list{
+  display: flex;
+  }
+
+
+
+.customers-list {
+  display: flex;
+}
+
+.icon-customers{
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  margin-right: 30px;
+}
+
+.icon-client-1{
+  padding: 23px 65px 22.3px 64px;
+}
+
+.icon-client-2{
+  padding: 19px 65px 21px 65px;
+}
+
+.icon-client-3{
+  padding: 24.7px 64.86px 26.12px 61.68px;
+}
+
+.icon-client-4{
+  padding: 24.7px 42.56px 26.68px 43px;
+}
+
+.icon-client-5{
+  padding: 22.77px 53.46px 28.3px 54px;
+}
+
+.icon-client-6{
+  padding: 22.77px 38.21px 25.31px 38px;
+}
+
+
 
 /*Футер*/
 
