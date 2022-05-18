@@ -413,7 +413,6 @@ margin-right: 0;
   margin-right: 0px;
 }
 
-
 .icon-networks:hover {
   fill: #FFFFFF;
 }
@@ -435,6 +434,7 @@ fill: #AFB1B8;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
 }
 
 .customers-title {
@@ -445,16 +445,24 @@ fill: #AFB1B8;
   margin-bottom: 50px;
 }
 
-.icon-customers{
+.link-customers{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 170px;
   height: 92px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
-  margin-right: 30px;
-  fill:#AFB1B8;
 }
 
-.icon-customers:last-child {
+.icon-customers {
+  fill:#AFB1B8;
+}
+/*.customers-items {
+margin-right: 30px;
+}*/
+
+.customers-items:last-child(1) {
   margin-right: 0;
 }
 
@@ -482,8 +490,11 @@ fill: #AFB1B8;
   padding: 22.77px 38.21px 25.31px 38px;
 }
 
-.icon-customers:hover {
+.link-customers:hover {
   border: 1px solid #2196F3;
+}
+
+.icon-customers:hover {
   fill: #2196F3;
 }
 
